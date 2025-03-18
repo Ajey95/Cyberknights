@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Eczar:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f3ee;
+  color: #333;
+}
+
+.font-serif {
+  font-family: 'Eczar', serif;
+}
+
+.indian-pattern {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.typing-text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.cursor-active {
+  border-left: 2px solid #333;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.char-correct {
+  color: #4caf50;
+}
+
+.char-incorrect {
+  color: #f44336;
+  text-decoration: underline;
+}
+
+.char-current {
+  background-color: rgba(144, 202, 249, 0.2);
+}
+
+/* Animation keyframes */
+@keyframes borderFlow {
+  0% { background-position: 0% 0; }
+  100% { background-position: 100% 0; }
+}
+
+@keyframes borderFlowReverse {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0% 0; }
+}
+
+@keyframes borderFlowVertical {
+  0% { background-position: 0 0%; }
+  100% { background-position: 0 100%; }
+}
+
+@keyframes borderFlowVerticalReverse {
+  0% { background-position: 0 100%; }
+  100% { background-position: 0 0%; }
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(5deg); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(-5deg); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes buttonPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.animate-borderFlow {
+  animation: borderFlow 15s linear infinite;
+  background-size: 200% 100%;
+}
+
+.animate-borderFlowReverse {
+  animation: borderFlowReverse 15s linear infinite;
+  background-size: 200% 100%;
+}
+
+.animate-borderFlowVertical {
+  animation: borderFlowVertical 15s linear infinite;
+  background-size: 100% 200%;
+}
+
+.animate-borderFlowVerticalReverse {
+  animation: borderFlowVerticalReverse 15s linear infinite;
+  background-size: 100% 200%;
+}
+
+.animate-float1 {
+  animation: float1 8s ease-in-out infinite;
+}
+
+.animate-float2 {
+  animation: float2 12s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 120s linear infinite;
+}
+
+.animate-buttonPulse {
+  animation: buttonPulse 2s ease-in-out infinite;
+}
