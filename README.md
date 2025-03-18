@@ -1,8 +1,18 @@
+# Event Name
+# IETE CLUB AMRITA WEB-DEV
+# CYBER KNIGHTS
 # TypeSymphony
 
 TypeSymphony is a culturally immersive typing application featuring Indian storytelling elements, Holi color effects, and an engaging user experience to improve typing skills.
 
-![TypeSymphony Screenshot](screenshot.png)
+![image](https://github.com/user-attachments/assets/31933539-52d7-4722-bbe9-4d7bdacf3b0e)
+![image](https://github.com/user-attachments/assets/494e3fe4-c5f4-4ac8-a5f0-dc03724a36a1)
+![image](https://github.com/user-attachments/assets/8a71df5f-97db-4082-aab6-940981535386)
+![image](https://github.com/user-attachments/assets/9e2b9ddd-8fab-46d0-bfec-3d85152ea79c)
+
+
+
+
 
 ## Features
 
