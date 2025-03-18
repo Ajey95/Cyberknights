@@ -9,6 +9,8 @@ TypeSymphony is a culturally immersive typing application featuring Indian story
 ![image](https://github.com/user-attachments/assets/494e3fe4-c5f4-4ac8-a5f0-dc03724a36a1)
 ![image](https://github.com/user-attachments/assets/8a71df5f-97db-4082-aab6-940981535386)
 ![image](https://github.com/user-attachments/assets/9e2b9ddd-8fab-46d0-bfec-3d85152ea79c)
+![image](https://github.com/user-attachments/assets/4763008b-9733-4e1b-8f5c-a68f57e4b749)
+
 
 
 
