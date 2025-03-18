@@ -40,7 +40,7 @@ TypeSymphony is a culturally immersive typing application featuring Indian story
 
 ## Demo
 
-Visit [TypeSymphony Live Demo](https://yourusername.github.io/typesymphony) to see the application in action.
+Visit [TypeSymphony Live Demo]((https://cyberknights-3oyc6rpxq-ajeyas-projects-ac1f8c11.vercel.app/)) to see the application in action.
 
 ## Installation
 
